@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+var div=$("div");
+div.animate({height:'300px',opacity:'0.4'},"slow");
+div.animate({width:'300px',opacity:'0.8'},"slow");
+div.animate({height:'100px',opacity:'0.4'},"slow");
+div.animate({width:'100px',opacity:'0.8'},"slow");
+});
+});
+</script>
+</head>
+<body>
+<button>start button</button>
+<p>by default,all HTML elements have a static position,and cannot be moved.to manipulate the position,remember to first set the css position property of the element to relative,fixed,or absolute!</p>
+<div style="background-color:red;height:100px;width=100px;position:absolute;"></div>
+</body>
+</html>

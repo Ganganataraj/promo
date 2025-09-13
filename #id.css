@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+#bb{
+color:green;
+}
+.aa{
+color:red;
+}
+</style>
+</head>
+<body>
+<h1 class="aa">welcome</h1>
+<h1>school</h1>
+<p id="bb">paper work</p>
+</body>
+</html>
